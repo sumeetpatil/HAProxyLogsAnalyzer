@@ -1,0 +1,25 @@
+{
+  "name": "haproxylogsanalyzer",
+  "version": "1.0.0",
+  "description": "Analyze HAProxy logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumeetpatil/HAProxyLogsAnalyzer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumeetpatil/HAProxyLogsAnalyzer/issues"
+  },
+  "homepage": "https://github.com/sumeetpatil/HAProxyLogsAnalyzer#readme",
+  "devDependencies": {
+    "readline": "^1.3.0"
+  },
+  "dependencies": {
+    "msexcel-builder": "0.0.2"
+  }
+}
