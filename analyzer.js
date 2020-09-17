@@ -23,7 +23,6 @@ var uniqueIps = [];
 
 const fs = require('fs');
 
-var writeStream = fs.createWriteStream(toFileName);
 function processLineByLine() {
   try {
     const data = fs.readFileSync(fromFileName, 'UTF-8');
@@ -64,7 +63,6 @@ function printUniqueuIps() {
   var sorted = array.sort(function (a, b) {
     return (b.count - a.count);
   });
-  // writeStream.write(JSON.stringify(sorted));
   console.log(sorted);
   console.log("Total Requests = "+ totalReq);
 }
